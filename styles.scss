@@ -1,0 +1,47 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+// mixins
+
+@mixin sombra {
+  -webkit-box-shadow: 9px 7px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 9px 7px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 9px 7px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(138, 209, 209);
+  width: 800px;
+  margin: auto;
+  margin-top: 100px;
+  padding: 20px 50px;
+
+  border-radius: 10px;
+
+  @include sombra;
+
+  .logo {
+    width: 100px;
+    height: 100px;
+  }
+  div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 40%;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    label {
+      margin-bottom: 10px;
+    }
+    input {
+      height: 20px;
+    }
+  }
+}

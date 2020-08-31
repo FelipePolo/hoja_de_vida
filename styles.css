@@ -1,0 +1,57 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #8ad1d1;
+  width: 800px;
+  margin: auto;
+  margin-top: 100px;
+  padding: 20px 50px;
+  border-radius: 10px;
+  -webkit-box-shadow: 9px 7px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 9px 7px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+header .logo {
+  width: 100px;
+  height: 100px;
+}
+
+header div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  width: 40%;
+}
+
+header form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header form label {
+  margin-bottom: 10px;
+}
+
+header form input {
+  height: 20px;
+}
+/*# sourceMappingURL=styles.css.map */
