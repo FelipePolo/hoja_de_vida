@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HOJA DE VIDA</title>
 
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <header class="row">
@@ -25,95 +25,127 @@
       </form>
     </header>
 
-    <div>DATOS PERSONALES</div>
+    <div class="separador"><span>1</span><span>DATOS PERSONALES</span></div>
 
-    <div  class="DATOS PERSONALES">
+    <div class="datos">
       <form action="#">
-        <div>
-
-          <div>
-            <p >Primer Apellido</p>
-            <input type="text" >
+        <div class="borde1">
+          <div class="borde2">
+            <p>Primer Apellido</p>
+            <input type="text" placeholder="POLO" />
           </div>
 
-          <div>
-            <p >Segundo Apellido</p>
-            <input type="text">
+          <div class="borde2">
+            <p>Segundo Apellido</p>
+            <input type="text" placeholder="PRADA" />
           </div>
 
           <div>
             <p>Nombres</p>
-            <input type="text">
+            <input type="text" placeholder="ERNESTO FELIPE" />
           </div>
-          
         </div>
 
-        <div>
-
-          <div>
-            <p >Documento De Identificacion</p>
+        <div class="borde1">
+          <div class=" borde2">
+            <p>Documento De Identificacion</p>
             <div>
-              <select >
-                <option >CC</option>
-                <option >C.E</option>
-                <option >PAS</option>
+              <select>
+                <option>CC</option>
+                <option>C.E</option>
+                <option>PAS</option>
               </select>
-              <input type="text" placeholder="No de documento">
+              <input type="text" placeholder="999999999999" />
             </div>
           </div>
 
-          <div>
-            <p >SEXO</p>
+          <div class="borde2">
+            <p>SEXO</p>
             <div>
-              <input type="radio" name="sexo">
-              <input type="radio" name="sexo">
+              <label>F</label>
+              <input type="radio" name="sexo" />
+              <label>M</label>
+              <input type="radio" name="sexo" checked="true" />
             </div>
           </div>
 
           <div>
-            <p >NACIONALIDAD</p>
+            <p>NACIONALIDAD</p>
             <div>
-              <label >COL </label>
-              <input type="radio">
-              <label >Extranjero</label>
-              <input type="radio">
-              <label >Pais</label>
-              <input type="text">
+              <label>COL </label>
+              <input type="radio" checked="true" />
+              <label>Extranjero</label>
+              <input type="radio" />
+              <label>Pais</label>
+              <input type="text" placeholder="Colombia" />
             </div>
-          </div>
-
-        </div>
-
-        <div>
-          <p >Libreta Militar</p>
-          <div>
-            <label >Primesa Clase</label>
-            <input type="radio">
-            <label >Segunda Clase</label>
-            <input type="radio">
-            <label >Numero</label>
-            <input type="text">
-            <label >D.M</label>
-            <input type="text">
           </div>
         </div>
 
+        <div class="borde1">
+          <div >
+            <p>Libreta Militar</p>
+            <div>
+              <label>Primesa Clase</label>
+              <input type="radio" />
+              <label>Segunda Clase</label>
+              <input type="radio" />
+              <label>Numero</label>
+              <input type="text" placeholder="99999999" />
+              <label>D.M</label>
+              <input type="text" placeholder="3333333" />
+            </div>
+          </div>
+        </div>
+
         <div>
-          <div>
+
+          <div class="borde2">
             <p>FECHA Y LUGAR DE NACIMIENTO</p>
             <div>
-              
+              <label >Dia:</label>
+              <input type="text" style="width: 30px;" placeholder="3">
+              <label >Mes:</label>
+              <input type="text" style="width: 30px;" placeholder="11">
+              <label >Año:</label>
+              <input type="text" style="width: 30px;" placeholder="1999">
+            </div>
+            <div>
+              <label >Depto:</label>
+              <input type="text" placeholder="Magdalena">
+            </div>
+            <div>
+              <label >Municipio:</label>
+              <input type="text" placeholder="Santa Marta">
             </div>
           </div>
 
+          <div>
+            <p>DIRECCION DE CORRESPONDENCIA</p>
+            <input type="text" style="width: 500px;" placeholder="Una direccion oculta">
+            <div>
+              <label >Pais</label>
+              <input type="text" placeholder="Colombia">
+              <label >DEPTO</label>
+              <input type="text" style="width: 245px;" placeholder="Magdalena">
+            </div>
 
+            <div>
+              <label >Municipio</label>
+              <input type="text" style="width: 420px;" placeholder="Santa Marta">
+            </div>
 
+            <div>
+              <label >Telefono</label>
+              <input type="text" placeholder="3207244864">
+              <label >Email</label>
+              <input type="email" style="width: 230px;" placeholder="Felipenv755@gmail.com" >
+            </div>
+
+          </div>
 
         </div>
-
-
       </form>
-    </div >
-
+    </div>
   </body>
 </html>
