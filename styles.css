@@ -34,7 +34,7 @@ header {
           justify-content: space-between;
   width: 800px;
   padding: 20px 50px;
-  background-color: #8ad1d1;
+  background-color: #E8F8F7;
   border-radius: 10px;
   -webkit-box-shadow: 9px 7px 5px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 9px 7px 5px 0px rgba(0, 0, 0, 0.75);
@@ -91,7 +91,7 @@ header form input {
 
 .datos {
   width: 900px;
-  background-color: #8ad1d1;
+  background-color: #E8F8F7;
   border-radius: 10px;
   -webkit-box-shadow: 9px 7px 5px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 9px 7px 5px 0px rgba(0, 0, 0, 0.75);
