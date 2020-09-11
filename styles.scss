@@ -110,34 +110,34 @@ header {
 // segunda section de la hoja de vida
 
 .contenido1 {
-  .parrafo{
+  .parrafo {
     padding: 10px 5px;
-    h2{
+    h2 {
       margin-bottom: 10px;
     }
-    div{
+    div {
       margin: 10px 0;
       display: flex;
-      ul{
+      ul {
         margin-right: 20px;
         list-style: none;
       }
     }
   }
-  
+
   .tabla {
     display: grid;
     width: 600px;
     grid-template-columns: repeat(2, 300px);
     grid-template-rows: repeat(2, auto);
-    
+
     margin: 20px auto;
     text-align: center;
-    
+
     border: 1px solid #000;
     border-radius: 18px;
     overflow: hidden;
-    
+
     .a {
       grid-column: 1;
       grid-row: 1;
@@ -173,7 +173,7 @@ header {
             border: none;
             border-top: 1px solid #000;
             border-right: 1px solid #000;
-            
+
             text-align: center;
             width: 26px;
             height: 40px;
@@ -190,22 +190,182 @@ header {
         text-align: center;
         border-bottom: 1px solid #000;
       }
-      div{
+      div {
         width: 100%;
         height: 100%;
         padding-top: 10px;
         justify-content: center;
         display: flex;
-        label{
+        label {
           margin-right: 2px;
         }
-        input{
+        input {
           width: 30px;
           height: 20px;
         }
-        
       }
     }
   }
   border-bottom: 2px solid #000;
+}
+
+.table_t {
+  ul {
+    list-style: none;
+    display: flex;
+    li {
+      display: flex;
+      background-color: #c3eef4;
+      font-size: 14px;
+      text-align: center;
+      padding-top: 10px;
+      width: auto + 10px;
+
+      flex-direction: column;
+
+      border: 1px solid #000;
+
+      div {
+        border-top: 1px solid #000;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        div {
+          width: 100%;
+          border: none;
+          padding: 5px;
+        }
+      }
+      div:nth-child(1) {
+        border-right: 1px solid #000;
+      }
+    }
+    li:nth-child(1) {
+      width: 10%;
+      border-left: none;
+    }
+    li:nth-child(2) {
+      width: 12%;
+    }
+    li:nth-child(3) {
+      width: 8%;
+    }
+    li:nth-child(4) {
+      width: 38%;
+    }
+    li:nth-child(5) {
+      width: 16%;
+      div {
+        div:nth-child(2) {
+          width: 260%;
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+    li:nth-child(6) {
+      width: 16%;
+      border-right: none;
+    }
+  }
+}
+
+.table_d {
+  div {
+    display: flex;
+    height: 30px;
+    border-bottom: 1px solid rgb(126, 124, 124);
+    input {
+      text-align: center;
+      height: 100%;
+      border: none;
+      border-right: 1px solid rgb(126, 124, 124);
+    }
+    input:nth-child(1) {
+      width: 10%;
+    }
+    input:nth-child(2) {
+      width: 12%;
+    }
+    input:nth-child(3) {
+      width: 4%;
+    }
+    input:nth-child(4) {
+      width: 4%;
+    }
+    input:nth-child(5) {
+      width: 38%;
+    }
+    input:nth-child(6) {
+      width: 5%;
+    }
+    input:nth-child(7) {
+      width: 11%;
+    }
+    input:nth-child(8) {
+      width: 16%;
+    }
+  }
+}
+
+.tabla3 {
+  margin: 10px auto;
+  margin-bottom: 20px;
+  width: 70%;
+  border: 1px solid #000;
+  border-radius: 15px;
+  overflow: hidden;
+  // background-color: #000;
+  .tabla_t {
+    border-bottom: 1px solid #000;
+    background-color: #C3EEF4;
+    ul {
+      list-style: none;
+      display: flex;
+      li {
+        width: 15%;
+        border-right: 1px solid #000;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        div {
+          border-top: 1px solid #000;
+          display: flex;
+          div {
+            display: flex;
+            justify-content: center;
+            border: none;
+            width: 100%;
+            border-right: 1px solid #000;
+          }
+          div:nth-child(3) {
+            border: none;
+          }
+        }
+      }
+      li:nth-child(1) {
+        padding-top: 10px;
+        width: 55%;
+      }
+      li:nth-child(4) {
+        border: none;
+      }
+    }
+  }
+  .tabla_d {
+    div{
+      display: flex;
+      border-bottom: 1px solid #7E7C7C;
+      height: 30px;
+      input {
+        border: none;
+        border-left: 1px solid #7E7C7C;
+        width: 31px;
+        text-align: center;
+      }
+      input:nth-child(1) {
+        width: 344px;
+      }
+    }
+  }
 }
