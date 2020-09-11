@@ -8,410 +8,436 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <header class="row">
-      <img
-        class="logo"
-        src="https://variedadesdecolombia.com/wp-content/uploads/2014/07/Escudo-de-Colombia.jpg"
-        alt="ESCUDO LIBERTAD Y ORDER"
-      />
-      <div>
-        <h1>HOJA DE VIDA</h1>
-        <p>persona natural</p>
-        <p>(Leyes 190 de 1995, 499 y 422 de 1988)</p>
-      </div>
-      <form action="#">
-        <label for="entidad">ENTIDAD RECEPTORA</label>
-        <input type="text" name="entidad" />
-      </form>
-    </header>
-
-    <div class="separador"><span>1</span><span>Datos Personales</span></div>
-
-    <div class="datos">
-      <form action="#">
-        <div class="borde1">
-          <div class="borde2">
-            <p>Primer Apellido</p>
-            <input type="text" placeholder="POLO" />
-          </div>
-
-          <div class="borde2">
-            <p>Segundo Apellido</p>
-            <input type="text" placeholder="PRADA" />
-          </div>
-
-          <div>
-            <p>Nombres</p>
-            <input type="text" placeholder="ERNESTO FELIPE" />
-          </div>
-        </div>
-
-        <div class="borde1">
-          <div class="borde2">
-            <p>Documento De Identificacion</p>
-            <div>
-              <select>
-                <option>CC</option>
-                <option>C.E</option>
-                <option>PAS</option>
-              </select>
-              <input type="text" placeholder="999999999999" />
-            </div>
-          </div>
-
-          <div class="borde2">
-            <p>SEXO</p>
-            <div>
-              <label>F</label>
-              <input type="radio" name="sexo" />
-              <label>M</label>
-              <input type="radio" name="sexo" checked="true" />
-            </div>
-          </div>
-
-          <div>
-            <p>NACIONALIDAD</p>
-            <div>
-              <label>COL </label>
-              <input type="radio" checked="true" />
-              <label>Extranjero</label>
-              <input type="radio" />
-              <label>Pais</label>
-              <input type="text" placeholder="Colombia" />
-            </div>
-          </div>
-        </div>
-
-        <div class="borde1">
-          <div>
-            <p>Libreta Militar</p>
-            <div>
-              <label>Primesa Clase</label>
-              <input type="radio" />
-              <label>Segunda Clase</label>
-              <input type="radio" />
-              <label>Numero</label>
-              <input type="text" placeholder="99999999" />
-              <label>D.M</label>
-              <input type="text" placeholder="3333333" />
-            </div>
-          </div>
-        </div>
-
+    <form action="#" method="POST" id="formulario">
+      <header class="row">
+        <img
+          class="logo"
+          src="https://variedadesdecolombia.com/wp-content/uploads/2014/07/Escudo-de-Colombia.jpg"
+          alt="ESCUDO LIBERTAD Y ORDER"
+        />
         <div>
-          <div class="borde2">
-            <p>FECHA Y LUGAR DE NACIMIENTO</p>
-            <div>
-              <label>Dia:</label>
-              <input type="text" style="width: 30px" placeholder="3" />
-              <label>Mes:</label>
-              <input type="text" style="width: 30px" placeholder="11" />
-              <label>Año:</label>
-              <input type="text" style="width: 30px" placeholder="1999" />
+          <h1>HOJA DE VIDA</h1>
+          <p>persona natural</p>
+          <p>(Leyes 190 de 1995, 499 y 422 de 1988)</p>
+        </div>
+        <label for="entidad">ENTIDAD RECEPTORA</label>
+        <input type="text" name="entidad" style="height: 30px;" />
+      </header>
+
+      <div class="separador"><span>1</span><span>Datos Personales</span></div>
+
+      <div class="datos">
+        <div class="variante1">
+          <div class="borde1">
+            <div class="borde2">
+              <p>Primer Apellido</p>
+              <input type="text" placeholder="POLO" />
             </div>
-            <div>
-              <label>Depto:</label>
-              <input type="text" placeholder="Magdalena" />
+
+            <div class="borde2">
+              <p>Segundo Apellido</p>
+              <input type="text" placeholder="PRADA" />
             </div>
+
             <div>
-              <label>Municipio:</label>
-              <input type="text" placeholder="Santa Marta" />
+              <p>Nombres</p>
+              <input type="text" placeholder="ERNESTO FELIPE" />
+            </div>
+          </div>
+
+          <div class="borde1">
+            <div class="borde2">
+              <p>Documento De Identificacion</p>
+              <div>
+                <select>
+                  <option>CC</option>
+                  <option>C.E</option>
+                  <option>PAS</option>
+                </select>
+                <input type="text" placeholder="999999999999" />
+              </div>
+            </div>
+
+            <div class="borde2">
+              <p>SEXO</p>
+              <div>
+                <label>F</label>
+                <input type="radio" name="sexo" />
+                <label>M</label>
+                <input type="radio" name="sexo" checked="true" />
+              </div>
+            </div>
+
+            <div>
+              <p>NACIONALIDAD</p>
+              <div>
+                <label>COL </label>
+                <input type="radio" checked="true" />
+                <label>Extranjero</label>
+                <input type="radio" />
+                <label>Pais</label>
+                <input type="text" placeholder="Colombia" />
+              </div>
+            </div>
+          </div>
+
+          <div class="borde1">
+            <div>
+              <p>Libreta Militar</p>
+              <div>
+                <label>Primesa Clase</label>
+                <input type="radio" />
+                <label>Segunda Clase</label>
+                <input type="radio" />
+                <label>Numero</label>
+                <input type="text" placeholder="99999999" />
+                <label>D.M</label>
+                <input type="text" placeholder="3333333" />
+              </div>
             </div>
           </div>
 
           <div>
-            <p>DIRECCION DE CORRESPONDENCIA</p>
-            <input
-              type="text"
-              style="width: 500px"
-              placeholder="Una direccion oculta"
-            />
-            <div>
-              <label>Pais</label>
-              <input type="text" placeholder="Colombia" />
-              <label>DEPTO</label>
-              <input type="text" style="width: 245px" placeholder="Magdalena" />
+            <div class="borde2">
+              <p>FECHA Y LUGAR DE NACIMIENTO</p>
+              <div>
+                <label>Dia:</label>
+                <input type="text" style="width: 30px" placeholder="3" />
+                <label>Mes:</label>
+                <input type="text" style="width: 30px" placeholder="11" />
+                <label>Año:</label>
+                <input type="text" style="width: 30px" placeholder="1999" />
+              </div>
+              <div>
+                <label>Depto:</label>
+                <input type="text" placeholder="Magdalena" />
+              </div>
+              <div>
+                <label>Municipio:</label>
+                <input type="text" placeholder="Santa Marta" />
+              </div>
             </div>
 
             <div>
-              <label>Municipio</label>
+              <p>DIRECCION DE CORRESPONDENCIA</p>
               <input
                 type="text"
-                style="width: 420px"
-                placeholder="Santa Marta"
+                style="width: 500px"
+                placeholder="Una direccion oculta"
               />
-            </div>
-
-            <div>
-              <label>Telefono</label>
-              <input type="text" placeholder="3207244864" />
-              <label>Email</label>
-              <input
-                type="email"
-                style="width: 230px"
-                placeholder="Felipenv755@gmail.com"
-              />
-            </div>
-          </div>
-        </div>
-      </form>
-    </div>
-
-    <div class="separador"><span>2</span><span>Formacion Academica</span></div>
-
-    <div class="datos">
-      <div class="contenido1">
-        <div class="parrafo">
-          <h2>EDUCACION BASICA Y MEDIA</h2>
-          <p>
-            MARQUE CON UNA X EL ULTIMO GRADO APROBADO (LOS GRADOS DE 1 A 6 DE
-            BACHILLERATO EQUIVALEN A LOS GRADOS 6 Y 11 DE EDUCACION BASICA
-            SECUNDARIA Y MEDIA).
-          </p>
-        </div>
-        <div class="tabla">
-          <div class="a">Educacion Basica</div>
-          <div class="b">Titulo Obtenido</div>
-
-          <div class="c">
-            <div style="background-color: aqua">
-              <p>primaria</p>
               <div>
-                <input type="text" value="1" />
-                <input type="text" value="2" />
-                <input type="text" value="3" />
-                <input type="text" value="4" />
-                <input type="text" value="5" />
+                <label>Pais</label>
+                <input type="text" placeholder="Colombia" />
+                <label>DEPTO</label>
+                <input
+                  type="text"
+                  style="width: 245px"
+                  placeholder="Magdalena"
+                />
               </div>
-            </div>
 
-            <div style="background-color: aqua">
-              <p>secundaria</p>
               <div>
-                <input type="text" value="6" />
-                <input type="text" value="7" />
-                <input type="text" value="8" />
-                <input type="text" value="9" />
+                <label>Municipio</label>
+                <input
+                  type="text"
+                  style="width: 420px"
+                  placeholder="Santa Marta"
+                />
               </div>
-            </div>
 
-            <div style="background-color: aqua">
-              <p>media</p>
               <div>
-                <input type="text" value="10" />
-                <input type="text" value="11" />
+                <label>Telefono</label>
+                <input type="text" placeholder="3207244864" />
+                <label>Email</label>
+                <input
+                  type="email"
+                  style="width: 230px"
+                  placeholder="Felipenv755@gmail.com"
+                />
               </div>
-            </div>
-          </div>
-
-          <div class="d">
-            <p>FECHA DE GRADO</p>
-            <div>
-              <label for="">MES:</label>
-              <input type="text" />
-              <label for="">AÑO</label>
-              <input type="text" />
             </div>
           </div>
         </div>
       </div>
 
-      <div class="contenido1">
-        <div class="parrafo">
-          <h2>EDUCACION SUPERIOR (POST GRADO Y PRE GRADO)</h2>
-          <p>
-            DILIGENCIE ESTE PUNTO EN ESTRICTO ORDEN CRONOLOGICO EN MODALIDAD
-            ACADEMICA ESCRIBA:
-          </p>
-          <div>
-            <ul>
-              <li><strong>TC</strong> (TECNICA).</li>
-              <li><strong>ES</strong> (ESPECIALIZACION).</li>
-            </ul>
-            <ul>
-              <li><strong>TL</strong> (TECNOLOGIA).</li>
-              <li><strong>MG</strong> (MAESTRIA O MAGISTER).</li>
-            </ul>
-            <ul>
-              <li><strong>TE</strong> (TECNOLOGIA ESPECIALIZADA).</li>
-              <li><strong>DOC</strong> (DOCTORADO O PHD).</li>
-            </ul>
+      <div class="separador">
+        <span>2</span><span>Formacion Academica</span>
+      </div>
+
+      <div class="datos">
+        <div class="contenido1">
+          <div class="parrafo">
+            <h2>EDUCACION BASICA Y MEDIA</h2>
+            <p>
+              MARQUE CON UNA X EL ULTIMO GRADO APROBADO (LOS GRADOS DE 1 A 6 DE
+              BACHILLERATO EQUIVALEN A LOS GRADOS 6 Y 11 DE EDUCACION BASICA
+              SECUNDARIA Y MEDIA).
+            </p>
           </div>
-          <p>
-            RELACIONE AL FRENTE EL NUMERO DE LA TARJETA PROFESIONAL (SI ESTA HA
-            SIDO PREVISTA EN UNA LEY)
-          </p>
+          <div class="tabla">
+            <div class="a">Educacion Basica</div>
+            <div class="b">Titulo Obtenido</div>
+
+            <div class="c">
+              <div style="background-color: aqua">
+                <p>primaria</p>
+                <div>
+                  <input type="text" value="1" />
+                  <input type="text" value="2" />
+                  <input type="text" value="3" />
+                  <input type="text" value="4" />
+                  <input type="text" value="5" />
+                </div>
+              </div>
+
+              <div style="background-color: aqua">
+                <p>secundaria</p>
+                <div>
+                  <input type="text" value="6" />
+                  <input type="text" value="7" />
+                  <input type="text" value="8" />
+                  <input type="text" value="9" />
+                </div>
+              </div>
+
+              <div style="background-color: aqua">
+                <p>media</p>
+                <div>
+                  <input type="text" value="10" />
+                  <input type="text" value="11" />
+                </div>
+              </div>
+            </div>
+
+            <div class="d">
+              <p>FECHA DE GRADO</p>
+              <div>
+                <label for="">MES:</label>
+                <input type="text" />
+                <label for="">AÑO</label>
+                <input type="text" />
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div class="tabla2">
-          <div class="table_t">
-            <ul>
-              <li>MODALIDAD ACADEMICA</li>
-              <li>No. SEMESTRE APROBADOS</li>
-              <li>
-                <p>Graduado</p>
-                <div>
-                  <div>SI</div>
-                  <div>NO</div>
-                </div>
-              </li>
-              <li>
-                NOMBRE DE LOS ESTUDIOS <br />
-                O TITULO OBTENIDO
-              </li>
-              <li>
-                <p>TERMINACION</p>
-                <div>
-                  <div>MES</div>
-                  <div>AÑO</div>
-                </div>
-              </li>
-              <li>No. DE TARJETA PROFESIONAL</li>
-            </ul>
+        <div class="contenido1">
+          <div class="parrafo">
+            <h2>EDUCACION SUPERIOR (POST GRADO Y PRE GRADO)</h2>
+            <p>
+              DILIGENCIE ESTE PUNTO EN ESTRICTO ORDEN CRONOLOGICO EN MODALIDAD
+              ACADEMICA ESCRIBA:
+            </p>
+            <div>
+              <ul>
+                <li><strong>TC</strong> (TECNICA).</li>
+                <li><strong>ES</strong> (ESPECIALIZACION).</li>
+              </ul>
+              <ul>
+                <li><strong>TL</strong> (TECNOLOGIA).</li>
+                <li><strong>MG</strong> (MAESTRIA O MAGISTER).</li>
+              </ul>
+              <ul>
+                <li><strong>TE</strong> (TECNOLOGIA ESPECIALIZADA).</li>
+                <li><strong>DOC</strong> (DOCTORADO O PHD).</li>
+              </ul>
+            </div>
+            <p>
+              RELACIONE AL FRENTE EL NUMERO DE LA TARJETA PROFESIONAL (SI ESTA
+              HA SIDO PREVISTA EN UNA LEY)
+            </p>
           </div>
 
-          <div class="table_d">
-            <div>
-              <input type="text" />
-              <input type="text" />
-              <input type="text" />
-              <input type="text" />
-              <input type="text" />
-              <input type="text" />
-              <input type="text" />
-              <input type="text" />
+          <div class="tabla2">
+            <div class="table_t">
+              <ul>
+                <li>MODALIDAD ACADEMICA</li>
+                <li>No. SEMESTRE APROBADOS</li>
+                <li>
+                  <p>Graduado</p>
+                  <div>
+                    <div>SI</div>
+                    <div>NO</div>
+                  </div>
+                </li>
+                <li>
+                  NOMBRE DE LOS ESTUDIOS <br />
+                  O TITULO OBTENIDO
+                </li>
+                <li>
+                  <p>TERMINACION</p>
+                  <div>
+                    <div>MES</div>
+                    <div>AÑO</div>
+                  </div>
+                </li>
+                <li>No. DE TARJETA PROFESIONAL</li>
+              </ul>
             </div>
-            <div>
-              <input type="text" />
-              <input type="text" />
-              <input type="text" />
-              <input type="text" />
-              <input type="text" />
-              <input type="text" />
-              <input type="text" />
-              <input type="text" />
+
+            <div class="table_d">
+              <div>
+                <input type="text" name="modalidad" />
+                <input type="text" name="semestre" />
+                <input type="radio" name="graduado" />
+                <input type="radio" name="graduado" />
+                <input type="text" name="estudio" />
+                <input type="text" name="t_mes" />
+                <input type="text" name="t_year" />
+                <input type="text" name="tarjeta" />
+              </div>
+              <div>
+                <input type="text" name="modalidad2" />
+                <input type="text" name="semestre2" />
+                <input type="radio" name="graduado2" />
+                <input type="radio" name="graduado2" />
+                <input type="text" name="estudio2" />
+                <input type="text" name="t_mes2" />
+                <input type="text" name="t_year2" />
+                <input type="text" name="tarjeta2" />
+              </div>
+              <div>
+                <input type="text" name="modalidad3" />
+                <input type="text" name="semestre3" />
+                <input type="radio" name="graduado3" />
+                <input type="radio" name="graduado3" />
+                <input type="text" name="estudio3" />
+                <input type="text" name="t_mes3" />
+                <input type="text" name="t_year3" />
+                <input type="text" name="tarjeta3" />
+              </div>
+              <div>
+                <input type="text" name="modalidad4" />
+                <input type="text" name="semestre4" />
+                <input type="radio" name="graduado4" />
+                <input type="radio" name="graduado4" />
+                <input type="text" name="estudio4" />
+                <input type="text" name="t_mes4" />
+                <input type="text" name="t_year4" />
+                <input type="text" name="tarjeta4" />
+              </div>
+              <div>
+                <input type="text" name="modalidad5" />
+                <input type="text" name="semestre5" />
+                <input type="radio" name="graduado5" />
+                <input type="radio" name="graduado5" />
+                <input type="text" name="estudio5" />
+                <input type="text" name="t_mes5" />
+                <input type="text" name="t_year5" />
+                <input type="text" name="tarjeta5" />
+              </div>
+              <div>
+                <input type="text" name="modalidad6" />
+                <input type="text" name="semestre6" />
+                <input type="radio" name="graduado6" />
+                <input type="radio" name="graduado6" />
+                <input type="text" name="estudio6" />
+                <input type="text" name="t_mes6" />
+                <input type="text" name="t_year6" />
+                <input type="text" name="tarjeta6" />
+              </div>
             </div>
-            <div>
-              <input type="text" />
-              <input type="text" />
-              <input type="text" />
-              <input type="text" />
-              <input type="text" />
-              <input type="text" />
-              <input type="text" />
-              <input type="text" />
+          </div>
+        </div>
+
+        <div class="contenido1">
+          <div class="parrafo">
+            <p>
+              ESPECIFIQUE LOS IDIOMAS DIFERENTES AL ESPAÑOL QUE HABLA, LEE ,
+              ESCRIBE DE FORMA, REGULAR (R), BIEN (B), O MUY BIEN (MB).
+            </p>
+          </div>
+          <div class="tabla3">
+            <div class="tabla_t">
+              <ul>
+                <li>IDIOMA</li>
+                <li>
+                  <p>LO HABLA</p>
+                  <div>
+                    <div>R</div>
+                    <div>B</div>
+                    <div>MB</div>
+                  </div>
+                </li>
+                <li>
+                  <p>LO LEE</p>
+                  <div>
+                    <div>R</div>
+                    <div>B</div>
+                    <div>MB</div>
+                  </div>
+                </li>
+                <li>
+                  <p>LO ESCRIBE</p>
+                  <div>
+                    <div>R</div>
+                    <div>B</div>
+                    <div>MB</div>
+                  </div>
+                </li>
+              </ul>
             </div>
-            <div>
-              <input type="text" />
-              <input type="text" />
-              <input type="text" />
-              <input type="text" />
-              <input type="text" />
-              <input type="text" />
-              <input type="text" />
-              <input type="text" />
-            </div>
-            <div>
-              <input type="text" />
-              <input type="text" />
-              <input type="text" />
-              <input type="text" />
-              <input type="text" />
-              <input type="text" />
-              <input type="text" />
-              <input type="text" />
-            </div>
-            <div>
-              <input type="text" />
-              <input type="text" />
-              <input type="text" />
-              <input type="text" />
-              <input type="text" />
-              <input type="text" />
-              <input type="text" />
-              <input type="text" />
+
+            <div class="tabla_d">
+              <div>
+                <input type="text" name="idioma" />
+                <input type="radio" name="habla" value="R" />
+                <input type="radio" name="habla" value="B" />
+                <input type="radio" name="habla" value="MB" />
+
+                <input type="radio" name="lee" value="R" />
+                <input type="radio" name="lee" value="B" />
+                <input type="radio" name="lee" value="MB" />
+
+                <input type="radio" name="escribe" value="R" />
+                <input type="radio" name="escribe" value="B" />
+                <input type="radio" name="escribe" value="MB" />
+              </div>
+
+              <div>
+                <input type="text" name="idioma2" />
+                <input type="radio" name="habla2" value="R" />
+                <input type="radio" name="habla2" value="B" />
+                <input type="radio" name="habla2" value="MB" />
+
+                <input type="radio" name="lee2" value="R" />
+                <input type="radio" name="lee2" value="B" />
+                <input type="radio" name="lee2" value="MB" />
+
+                <input type="radio" name="escribe2" value="R" />
+                <input type="radio" name="escribe2" value="B" />
+                <input type="radio" name="escribe2" value="MB" />
+              </div>
+
+              <div>
+                <input type="text" name="idioma3" />
+                <input type="radio" name="habla3" value="R" />
+                <input type="radio" name="habla3" value="B" />
+                <input type="radio" name="habla3" value="MB" />
+
+                <input type="radio" name="lee3" value="R" />
+                <input type="radio" name="lee3" value="B" />
+                <input type="radio" name="lee3" value="MB" />
+
+                <input type="radio" name="escribe3" value="R" />
+                <input type="radio" name="escribe3" value="B" />
+                <input type="radio" name="escribe3" value="MB" />
+              </div>
             </div>
           </div>
         </div>
       </div>
-
-      <div class="contenido1">
-        <div class="parrafo">
-          <p>
-            ESPECIFIQUE LOS IDIOMAS DIFERENTES AL ESPAÑOL QUE HABLA, LEE ,
-            ESCRIBE DE FORMA, REGULAR (R), BIEN (B), O MUY BIEN (MB).
-          </p>
-        </div>
-        <div class="tabla3">
-          <div class="tabla_t">
-            <ul>
-              <li>IDIOMA</li>
-              <li>
-                <p>LO HABLA</p>
-                <div>
-                  <div>R</div>
-                  <div>B</div>
-                  <div>MB</div>
-                </div>
-              </li>
-              <li>
-                <p>LO LEE</p>
-                <div>
-                  <div>R</div>
-                  <div>B</div>
-                  <div>MB</div>
-                </div>
-              </li>
-              <li>
-                <p>LO ESCRIBE</p>
-                <div>
-                  <div>R</div>
-                  <div>B</div>
-                  <div>MB</div>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div class="tabla_d">
-            <div>
-              <input type="text">
-              <input type="text">
-              <input type="text">
-              <input type="text">
-              <input type="text">
-              <input type="text">
-              <input type="text">
-              <input type="text">
-              <input type="text">
-              <input type="text">
-            </div>
-            <div>
-              <input type="text">
-              <input type="text">
-              <input type="text">
-              <input type="text">
-              <input type="text">
-              <input type="text">
-              <input type="text">
-              <input type="text">
-              <input type="text">
-              <input type="text">
-            </div>
-            <div>
-              <input type="text">
-              <input type="text">
-              <input type="text">
-              <input type="text">
-              <input type="text">
-              <input type="text">
-              <input type="text">
-              <input type="text">
-              <input type="text">
-              <input type="text">
-            </div>
-          </div>
-        </div>
+      <div class="enviar">
+        <label>Metodo para enviar el formulario:</label>
+        <select name="tipo" id="metodo">
+          <option value="POST">POST</option>
+          <option value="GET">GET</option>
+        </select>
+        <input type="submit">
       </div>
-    </div>
+    </form>
+
+    <script src="./js/funcionalidad.js"></script>
+
   </body>
 </html>

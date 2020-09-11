@@ -97,7 +97,7 @@ header form input {
   box-shadow: 9px 7px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
-.datos form {
+.datos .variante1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -107,13 +107,13 @@ header form input {
           flex-direction: column;
 }
 
-.datos form div {
+.datos .variante1 div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.datos form div div {
+.datos .variante1 div div {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -121,13 +121,13 @@ header form input {
   padding: 5px;
 }
 
-.datos form div div input {
+.datos .variante1 div div input {
   margin-top: 10px;
   width: 280px;
   height: 30px;
 }
 
-.datos form div div div {
+.datos .variante1 div div div {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -137,7 +137,7 @@ header form input {
           align-items: center;
 }
 
-.datos form div div div input {
+.datos .variante1 div div div input {
   margin: 2px 10px;
   width: auto;
 }
@@ -486,6 +486,7 @@ header form input {
 }
 
 .tabla3 .tabla_d div {
+  background-color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -495,12 +496,44 @@ header form input {
 
 .tabla3 .tabla_d div input {
   border: none;
-  border-left: 1px solid #7E7C7C;
+  border-right: 1px solid #7E7C7C;
   width: 31px;
   text-align: center;
 }
 
 .tabla3 .tabla_d div input:nth-child(1) {
   width: 344px;
+}
+
+.enviar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 0 30%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.enviar input, .enviar select {
+  height: 35px;
+  padding: 0px 15px;
+  background-color: #C3EEF4;
+  border: none;
+  border-radius: 15px;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+  font-size: 18px;
+}
+
+.enviar input:hover {
+  background-color: #E8F8F7;
 }
 /*# sourceMappingURL=styles.css.map */
