@@ -72,8 +72,20 @@ header {
   }
 }
 
+#reloj{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+  height: 35px;
+  border-radius: 20px;
+  margin: 10px auto;
+}
+
 .separador {
-  width: 900px;
+  background-color: transparent;
+  align-self: flex-start;
+  border: none;
   margin: 20px;
   padding: 5px 0;
   span {

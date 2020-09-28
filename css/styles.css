@@ -94,8 +94,27 @@ header form input {
   height: 20px;
 }
 
+#reloj {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #000;
+  height: 35px;
+  border-radius: 20px;
+  margin: 10px auto;
+}
+
 .separador {
-  width: 900px;
+  background-color: transparent;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  border: none;
   margin: 20px;
   padding: 5px 0;
 }

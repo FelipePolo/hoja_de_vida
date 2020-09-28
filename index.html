@@ -21,13 +21,17 @@
             <p>persona natural</p>
             <p>(Leyes 190 de 1995, 499 y 422 de 1988)</p>
           </div>
-          <label for="entidad">ENTIDAD RECEPTORA</label>
-          <input type="text" name="entidad" style="height: 30px;" />
+          <div>s
+            <label for="entidad">ENTIDAD RECEPTORA</label>
+            <input type="text" name="entidad" style="height: 30px;" />
+            <div id="reloj"><label >00:00:00</label></div>
+          </div>
+
         </header>
   
-        <div class="separador"><span>1</span><span>Datos Personales</span></div>
+        <a onclick="showtoggle('1')" class="separador"><span>1</span><span>Datos Personales</span></a>
   
-        <div class="datos">
+        <div class="datos" id="1">
           <div class="variante1">
             <div class="borde1">
               <div class="borde2">
@@ -161,11 +165,11 @@
           </div>
         </div>
   
-        <div class="separador">
+        <a onclick="showtoggle('2')" class="separador">
           <span>2</span><span>Formacion Academica</span>
-        </div>
+        </a>
   
-        <div class="datos">
+        <div class="datos" id="2">
           <div class="contenido1">
             <div class="parrafo">
               <h2>EDUCACION BASICA Y MEDIA</h2>
@@ -439,6 +443,7 @@
       </form>
     </div>
 
+    <script src="./js/jquery-3.5.1.min.js"></script>
     <script src="./js/funcionalidad.js"></script>
   </body>
 </html>
